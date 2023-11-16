@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #f5a425;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  overflow: auto;
+  background-color: rgb(22, 34, 57);
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.hafl-part {
+  width: 50%;
+}
+
+.flex_row {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+
+/* ---------animation--------- */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeSlideIn {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutBorder {
+  from {
+    border: 2.5px solid rgba(218, 134, 39, 0.87);
+  }
+  to {
+    border: 2.5px solid rgba(218, 134, 39, 0);
+  }
+}
+
+@keyframes sliderUp {
+  from {
+    transform: translateY(calc(100% - 110px));
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sliderOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(100% - 110px));
+  }
+}
+
+@keyframes sliderOutTab {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(100% - 96px));
+  }
+}
