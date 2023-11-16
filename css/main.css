@@ -1,5 +1,5 @@
 .important-text {
-  color: rgba(248, 182, 26, 0.87);
+  color: var(--main-color);
 }
 
 .video-container {
@@ -81,7 +81,7 @@
   margin-left: 12px;
 }
 .header__logo .text-1-logo {
-  color: rgba(218, 155, 39, 0.87);
+  color: var(--main-color);
 }
 
 .header__select-section {
@@ -109,8 +109,8 @@
   cursor: pointer;
 }
 
-.header__select-section .option a:hover .header__about-list{
-  display:block;
+.header__select-section .option a:hover .header__about-list {
+  display: block;
 }
 
 .header__menu {
@@ -238,7 +238,7 @@
 }
 
 .overlay-video .main-header-title .title-text-1 {
-  color: rgba(218, 155, 39, 0.87);
+  color: var(--main-color);
 }
 
 .main-header__more-btn {
@@ -246,7 +246,7 @@
   font-size: 1.3rem;
   text-decoration: none;
   color: white;
-  background-color: #a86f14;
+  background-color: var(--main-color);
   padding: 14px 18px;
   width: max-content;
   margin: auto;
@@ -381,13 +381,13 @@
 }
 
 .item-selected {
-  color: #cc8410;
+  color: var(--main-color);
 }
 
 .item-selected i {
-  border: 2px solid #cc8410;
+  border: 2px solid var(--main-color);
   padding: 4px;
-  color: #cc8410;
+  color: var(--main-color);
   font-size: 2rem;
 }
 
@@ -654,10 +654,6 @@
   margin-bottom: 26px;
 }
 
-.main-page__container-4_left-title b {
-  color: var(--main-color);
-}
-
 .main-page__container-4_left-info {
   padding-bottom: 20px;
 }
@@ -859,6 +855,3 @@
   letter-spacing: 1px;
 }
 
-#footer b {
-  color: var(--main-color);
-}
